@@ -1,0 +1,17 @@
+<Files *.mp4>
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+# Deny access to video file
+<Files 1549536229821911.mp4>
+Order allow,deny
+Deny from all
+</Files>
+
+
+# Deny access to video file
+<Files 1549536326438582.mp4>
+Order allow,deny
+Deny from all
+</Files>
